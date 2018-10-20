@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vigil Fire Prevention System</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="navbar-nav align-items-center">
+                <a class="navbar-brand mynav" href="{% url 'home' %}">Vigil Fire Prevention System</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="{% url 'occurence' %}" class="btn btn-simple">Fire Occurence Map</a>
+                <a class="nav-item nav-link" href="{% url 'hazard' %}" class="btn btn-simple">Fire Hazard Map</a>
+                <a class="nav-item nav-link" href="{% url 'report' %}" class="btn btn-simple">Fire Report Portal</a>
+
+            </div> <!-- .container -->
+        </nav>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
