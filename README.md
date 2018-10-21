@@ -16,20 +16,9 @@ There are serval points we are seriosely considering during the development of o
 
 Our capacity to understand and evaluate our methods is bound by availability of contextual relevant data in different forests. To overcome the challenge of accessing to local and real data, our study test the theoretical models using the public data from NASA and posts from social media platforms. In this project, we conducted a series of experiments to demonstrate how we collected, filtered and merged different sources of data from open data portals to develop our predictive dashboard.  
 
-## Data 
+# What does it do?
 
-In this section, we describe each of the datasets that we have used. This project relies on open data sources from social media platforms and other open sorce data provided by NASA. The main data sources that we used in the project are the following: 
-
-* NASA climate data:  http://climatedata.us/#map
-
-* Social Media: Due to the limited time we have from the Space App Challenge, we only filtered out 1400 posts with texts, images along with geo-coordinates attached as training set from social media platforms including Twitter and Flicker about hashtags #wildfire #CaliforniaWildFire #wildfires, and averagely split them into four categories: fireman, grassland fire, fire live scenes and smoky air caused by wildfires. Meanwhile, we randomly selected 50 posts from each categories for validation purpose.
-
-* Fire Information for Resource Management System (FIRMS): Historic wildfire data for  prediction.
-
-
-# Solutions
-
-What does it do: By improving connectivity between individuals, social medias, NASA's database, drones and other aircrafts, and firefighters, the wildfires can be detected within 10 s.
+By improving connectivity between individuals, social medias, NASA's database, drones and other aircrafts, and firefighters, the wildfires can be detected within 10 s.
 
 # How to Detect Wildfires and Notify People around Fires within 10 s
 
@@ -73,3 +62,14 @@ Inspired by the idea that social media platforms can be used to detect and locat
 crowd-souring materials including texts, photos and videos.
 
 After obtaining the location of where users are and the identification of wildfire, we are designing to use drones to participate in rescuing people by lively fire detection and air quality monitoring, and provide best escape route for users.  
+
+
+## Data 
+
+In this section, we describe each of the datasets that we have used. This project relies on open data sources from social media platforms and other open sorce data provided by NASA. The main data sources that we used in the project are the following: 
+
+* NASA climate data:  http://climatedata.us/#map
+
+* Social Media: Due to the limited time we have from the Space App Challenge, we only filtered out 1400 posts with texts, images along with geo-coordinates attached as training set from social media platforms including Twitter and Flicker about hashtags #wildfire #CaliforniaWildFire #wildfires, and averagely split them into four categories: fireman, grassland fire, fire live scenes and smoky air caused by wildfires. Meanwhile, we randomly selected 50 posts from each categories for validation purpose.
+
+* Fire Information for Resource Management System (FIRMS): Historic wildfire data for  prediction.
