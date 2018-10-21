@@ -1,4 +1,4 @@
-## “Vigil”: How Can We Use Data to Predict Domestic Fire Risk ? 
+## “Vigil”: Predicting, Identifying and Rescuing
 
 ## Problem
 
@@ -30,25 +30,26 @@ In this section, we describe each of the datasets that we have used. This projec
 What does it do: By improving connectivity between individuals, social medias, NASA's database, drones and other aircrafts, and firefighters, the wildfires can be detected within 10 s.
 
 How to Detect Wildfires and Notify People around Fires within 10 s
-- 10 s before the Fire: Infer the Possibility of Wildfires by Climate Data 
-   Home-made Code: e: https://github.com/zyning/nasa-spaceapp-2018/tree/master/FirePrediction
-   
-   Predicting Daily Fire Occurence: e: https://github.com/zyning/nasa-spaceapp-2018/blob/master/Prediction%20of%20Daily%20Fire%20Occurrence%20.pdf
-   
-   Third Party Code: e: https://github.com/zyning/nasa-spaceapp-2018/tree/master/Spaceapps/NASA_Spaceapps
-   
-   Climate Data: a: http://climatedata.us/#map
-- 8
-- 8 s before the Fire: Start Launching Drones and Other Aircrafts to Detect and Verify the Fires 
-   Detecting Fires from the Sky: y: https://github.com/zyning/nasa-spaceapp-2018/blob/master/Detecting%20Fires%20from%20the%20Sky.pdf
-- 3
-- 3 s before the Fire: Potential Fire Alarms through Third Party Social Media
-   Potential Collaboration Partner: r: https://twitter.com/wildfiretoday?lang=en
-- 3
-- 3 s after the Fire: Report a Fire through Geolocated Social Media Posts
-   Home-made Code with 84.27% Accuracy on Validation Set: t: https://github.com/zyning/nasa-spaceapp-2018/tree/master/NASA
 
-In
+- 10 s before the Fire: Infer the Possibility of Wildfires by Climate Data 
+   Home-made Code: https://github.com/zyning/nasa-spaceapp-2018/tree/master/FirePrediction
+   Predicting Daily Fire Occurence: https://github.com/zyning/nasa-spaceapp-2018/blob/master/Prediction%20of%20Daily%20Fire%20Occurrence%20.pdf
+   Third Party Code: https://github.com/zyning/nasa-spaceapp-2018/tree/master/Spaceapps/NASA_Spaceapps
+   Climate Data: http://climatedata.us/#map
+- 8 s before the Fire: Start Launching Drones and Other Aircrafts to Detect and Verify the Fires 
+   Detecting Fires from the Sky: https://github.com/zyning/nasa-spaceapp-2018/blob/master/Detecting%20Fires%20from%20the%20Sky.pdf
+- 3 s before the Fire: Potential Fire Alarms through Third Party Social Media
+   Potential Collaboration Partner: https://twitter.com/wildfiretoday?lang=en
+- 3 s after the Fire: Report a Fire through Geolocated Social Media Posts
+   Home-made Code with 84.27% Accuracy on Validation Set: https://github.com/zyning/nasa-spaceapp-2018/tree/master/NASA
+   Report for Wildfire Detection, Identification, and Visualization: https://github.com/zyning/nasa-spaceapp-2018/blob/master/NASA/NASA_report(1).pdf
+- 5 s after the Fire: Drones and Other Aircrafts Provide Real Time Information about How a Fire is Unfolding
+   Home-made Drone: https://github.com/zyning/nasa-spaceapp-2018/blob/master/Drone.pdf
+- 7 s after the Fire: Social Medias Alert People around the Fire and Show Potential Exits and Entry Points
+   Potential Collaboration Partner: Google Maps, Facebook, Twitter, Instagram, Snapchat
+- 10 s after the Fire: Call for Firefighters. 
+   Our mission, as Vigil (a Latin word, means "watchman who alerts fireman in Rome"), has accomplished
+
 
 Inspired by the idea that social media platforms can be used to detect and locate disasters, we are seeing social media users as individual sensors to detect disasters. Based on the model of two branch neural network, we design our model that consists of a LSTM network and a 3 layer Convolutional neural network to identify wildfire from
 crowd-souring materials including texts, photos and videos.
