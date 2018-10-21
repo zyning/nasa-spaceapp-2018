@@ -1,6 +1,6 @@
 # “Vigil”: Detecting Fire and Notifying People within 10 s
 
-# Problem
+## Problem
 
 Wildfire incidents across the world remain as one of the leading causes of death that threatens human safety.
 
@@ -16,11 +16,11 @@ There are serval points we are seriosely considering during the development of o
 
 Our capacity to understand and evaluate our methods is bound by availability of contextual relevant data in different forests. To overcome the challenge of accessing to local and real data, our study test the theoretical models using the public data from NASA and posts from social media platforms. In this project, we conducted a series of experiments to demonstrate how we collected, filtered and merged different sources of data from open data portals to develop our predictive dashboard.  
 
-# What does it do?
+## What does it do?
 
 By improving connectivity between individuals, social medias, NASA's database, drones and other aircrafts, and firefighters, the wildfires can be detected within 10 s.
 
-# How?
+## How?
 
 - 10 s before the Fire: Infer the Possibility of Wildfires by Climate Data 
 
