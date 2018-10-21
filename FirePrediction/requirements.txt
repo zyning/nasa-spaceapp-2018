@@ -1,0 +1,3 @@
+pip install pyyaml
+pip install requests[security]
+pip install psycopg2
