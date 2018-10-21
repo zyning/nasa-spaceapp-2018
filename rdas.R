@@ -1,0 +1,39 @@
+#' @title Fire weather index data from observations and reanalysis at 7 locations in Spain 
+#' @description Temperature, relative humidity, precipitation and wind velocity data from 7 locations in Spain,
+#'  as well as the resulting Fire Weather Index series, corresponding to both weather station observations
+#'   and reanalysis data (NCEP).
+#' @format A list of two elements, containing data of the NCEP/NCAR reanalysis and observations data respectively. 
+#' For each element of the list, a second list of length 7 is provided, each corresponding to a particular location in Spain,
+#'  each of them containing a dataframe with the following fields:
+#'  \itemize{
+#'  \item \code{fecha}. A vector of class Date with dates of the records
+#'  \item \code{T} A numeric vector of temperature records, in degree C
+#'  \item \code{H} A numeric vector of relative hunidity records, in degree \%
+#'  \item \code{P} A numeric vector of precipitation records, in mm, see details
+#'  \item \code{W} A numeric vector of wind speed records, in km/h
+#'  \item \code{FWI} A numeric vector with the Fire Weather Index series 
+#'  }
+#'  @details Data correspond both to observations from the Spanish Meteorological Agency (AEMET, all recorded 
+#'  at noon excepting precipitation, recorded at 07:00 UTC and corresponding to values
+#'   accumulated during the last 24h) and the NCEP reanalysis interpolated to the same locations (12:00 UTC), 
+#'   encompassing a period of approximately 6 years (2006-2011). These records are therefore appropriate for the 
+#'   calculation of several fire danger indices, requiring data measured around noon.
+#'    Further details on this dataset are provided in Bedia \emph{et al.} (2012).
+#' @references  
+#' J. Bedia, S. Herrera, J.M. Gutierrez, G. Zavala, I. R. Urbieta and J.M. Moreno (2012). Sensitivity of Fire Weather 
+#' Index to different reanalysis products in the Iberian Peninsula. \emph{Nat. Hazards Earth Syst. Sci.}, 12, 699-708.
+#' \url{http://www.nat-hazards-earth-syst-sci.net/12/699/2012/nhess-12-699-2012.html}
+#' @name fwiSpain
+#' @examples
+#' data(fwiSpain)
+#' str(fwiSpain)
+NULL
+
+#' @title Time series of meteo station data from Spain 
+#' @description Daily precipitation, maximum and minimum temperature records.
+#' @format A data.frame
+#' @name meteoSpain
+#' @examples
+#' data(meteoSpain)
+#' str(meteoSpain)
+NULL
