@@ -20,16 +20,18 @@ Our capacity to understand and evaluate our methods is bound by availability of 
 
 In this section, we describe each of the datasets that we have used. This project relies on open data sources from social media platforms and other open sorce data provided by NASA. The main data sources that we used in the project are the following: 
 
-* [Social Media]): Due to the limited time we have from the Space App Challenge, we only filtered out 1400 posts with texts, images along with geo-coordinates attached as training set from social media platforms including Twitter and Flicker about hashtags #wildfire #CaliforniaWildFire #wildfires, and averagely split them into four categories: fireman, grassland fire, fire live scenes and smoky air caused by wildfires. Meanwhile, we randomly selected 50 posts from each categories for validation purpose.
+* NASA climate data:  http://climatedata.us/#map
 
-* [Fire Information for Resource Management System (FIRMS)]): Historic wildfire data for  prediction.
+* Social Media: Due to the limited time we have from the Space App Challenge, we only filtered out 1400 posts with texts, images along with geo-coordinates attached as training set from social media platforms including Twitter and Flicker about hashtags #wildfire #CaliforniaWildFire #wildfires, and averagely split them into four categories: fireman, grassland fire, fire live scenes and smoky air caused by wildfires. Meanwhile, we randomly selected 50 posts from each categories for validation purpose.
+
+* Fire Information for Resource Management System (FIRMS): Historic wildfire data for  prediction.
 
 
-# Solution goal: Detecting Wildfires and Notifying People at Risk within 10 s
+# Solutions
 
 What does it do: By improving connectivity between individuals, social medias, NASA's database, drones and other aircrafts, and firefighters, the wildfires can be detected within 10 s.
 
-How to Detect Wildfires and Notify People around Fires within 10 s
+# How to Detect Wildfires and Notify People around Fires within 10 s
 
 - 10 s before the Fire: Infer the Possibility of Wildfires by Climate Data 
 
