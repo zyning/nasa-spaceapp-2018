@@ -1,6 +1,6 @@
-## “Vigil”: Detecting Fire and Notifying People within 10 s
+# “Vigil”: Detecting Fire and Notifying People within 10 s
 
-## Problem
+# Problem
 
 Wildfire incidents across the world remain as one of the leading causes of death that threatens human safety.
 
@@ -20,7 +20,7 @@ Our capacity to understand and evaluate our methods is bound by availability of 
 
 By improving connectivity between individuals, social medias, NASA's database, drones and other aircrafts, and firefighters, the wildfires can be detected within 10 s.
 
-# How to Detect Wildfires and Notify People around Fires within 10 s
+# How?
 
 - 10 s before the Fire: Infer the Possibility of Wildfires by Climate Data 
 
